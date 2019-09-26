@@ -14,6 +14,7 @@
 		FCD88347233CBC99001B43B2 /* ESL_Magic_Scrambler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCD88345233CBC99001B43B2 /* ESL_Magic_Scrambler.xcdatamodeld */; };
 		FCD88349233CBC99001B43B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD88348233CBC99001B43B2 /* Assets.xcassets */; };
 		FCD8834C233CBC99001B43B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD8834A233CBC99001B43B2 /* LaunchScreen.storyboard */; };
+		FCD88354233CF09E001B43B2 /* ScrambleMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD88353233CF09E001B43B2 /* ScrambleMachine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FCD88348233CBC99001B43B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCD8834B233CBC99001B43B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCD8834D233CBC99001B43B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD88353233CF09E001B43B2 /* ScrambleMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrambleMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				FCD8833E233CBC99001B43B2 /* SceneDelegate.swift */,
 				FCD88340233CBC99001B43B2 /* ViewController.swift */,
 				FCD88342233CBC99001B43B2 /* Main.storyboard */,
+				FCD88353233CF09E001B43B2 /* ScrambleMachine.swift */,
 				FCD88348233CBC99001B43B2 /* Assets.xcassets */,
 				FCD8834A233CBC99001B43B2 /* LaunchScreen.storyboard */,
 				FCD8834D233CBC99001B43B2 /* Info.plist */,
@@ -145,6 +148,7 @@
 				FCD88341233CBC99001B43B2 /* ViewController.swift in Sources */,
 				FCD8833D233CBC99001B43B2 /* AppDelegate.swift in Sources */,
 				FCD8833F233CBC99001B43B2 /* SceneDelegate.swift in Sources */,
+				FCD88354233CF09E001B43B2 /* ScrambleMachine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ksmithmedia.ESL-Magic-Scrambler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ksmithmedia.ESL-Magic-Scrambler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
